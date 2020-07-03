@@ -1,0 +1,164 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  height: 90px;
+  background-color: pink;
+  color:white;
+}
+
+.header-logo {
+  float:left;
+  font-family:fantasy;
+  font-size: 40px;
+  padding:20px 40px;
+}
+
+.header-list {
+  float:left;
+}
+
+.header-list li {
+  float:left;
+  padding:33px 20px;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition:all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height:90px;
+  padding: 0 25px;
+  color:white;
+  display:block;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(日向.jpeg);
+  background-size: cover;
+  color:#ff00ff;
+  text-align: left;
+}
+
+/* top-wrapperの中の<h1>のCSSを指定してください */
+.top-wrapper h1 {
+  opacity:0.7;
+  font-size:50px;
+  letter-spacing:5px;
+}
+
+
+/* top-wrapperの中の<p>のCSSを指定してください */
+.top-wrapper p {
+  opacity:0.7;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  border-bottom: 2px solid #dee7ec;
+}
+
+.lesson {
+  float: left;
+  width:auto;
+  margin:10px 5px;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.footer {
+  background-color:black;
+  color:#fff;
+  height:90px;
+  padding:40px;
+}
+
+.footer-logo {
+  float:left;
+  font-size:32px;
+}
+
+.footer-list {
+  float:right
+}
+
+.footer-list li {
+  padding-bottom:20px;
+}
